@@ -1,0 +1,125 @@
+:root {
+    --color-primary: rgb(14 165 233);
+    --gradient: linear-gradient(to left top, #07ff13, 10%, var(--color-primary) 90%);
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+}
+
+body {
+    background: rgba(33, 37, 41, 0.99);
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.warna-utama {
+    color: var(--color-primary);
+}
+
+.card {
+    background: #222;
+    border: 1px solid var(--color-primary);
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+}
+
+.card .form-floating {
+    color: rgba(33, 37, 41, 0.99)
+}
+
+.btn-search {
+    border: 5px solid var(--color-primary);
+    border-radius: 10%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .4s ease;
+    font-weight: 700;
+}
+
+.btn:not(.btn-action):not(.btn-hapus):not(.verifikasi-email) {
+    border: 5px solid;
+    border-image-slice: 1;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-image-source: var(--gradient);
+    text-decoration: none;
+    transition: all .4s ease;
+    font-weight: 700;
+}
+
+.btn:hover:not(.btn-action):not(.btn-hapus):not(.verifikasi-email),
+.btn:focus:not(.btn-action):not(.btn-hapus):not(.verifikasi-email),
+.btn-search:hover:not(.btn-action):not(.btn-hapus) {
+    background: var(--gradient);
+    -webkit-background-clip: none;
+    -webkit-text-fill-color: #fff;
+    border: 5px solid #fff;
+    box-shadow: #222 1px 0 10px;
+    text-decoration: none;
+}
+
+.bg-transparant {
+    background-color: var(--color-primary);
+    opacity: 0.9;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.navbar a:hover,
+.share a:hover,
+.btn-action:hover {
+    text-decoration: none;
+}
+
+/* Ok button */
+.swal2-icon-error .swal2-styled.swal2-confirm,
+.swal2-icon-success .swal2-styled.swal2-confirm {
+    background-color: #0d6efd !important;
+}
+
+.swal2-icon-error .swal2-styled.swal2-confirm:focus,
+.swal2-icon-success .swal2-styled.swal2-confirm:focus {
+    box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, .5) !important;
+}
+
+/* Ok button confirm deletion */
+.swal2-icon-warning .swal2-styled.swal2-confirm {
+    background-color: #fa3a3a !important;
+}
+
+.swal2-icon-warning .swal2-styled.swal2-confirm:focus {
+    box-shadow: 0 0 0 0.25rem rgba(253, 49, 49, 0.5) !important;
+}
+
+.swal2-icon.swal2-warning {
+    color: #f27474 !important;
+    border-color: #f27474 !important;
+}
+
+/* Dark theme */
+.swal2-popup {
+    background: rgba(33, 37, 41, 0.99) !important;
+    color: #fff !important;
+}
+
+.swal2-toast-shown .swal2-timer-progress-bar-container {
+    background: rgba(255, 255, 255, 0.523) !important;
+}
+
+.swal2-toast-shown .swal2-timer-progress-bar {
+    background: #fff !important;
+}
