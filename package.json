@@ -10,7 +10,7 @@
         "bootstrap": "^5.3.3",
         "laravel-vite-plugin": "^1.0.5",
         "lodash": "^4.17.19",
-        "postcss": "^8.4.41",
+        "postcss": "^8.4.48",
         "sass": "^1.80.6",
         "vite": "^5.4.10"
     },
