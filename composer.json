@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.0.2",
         "davidhsianturi/blade-bootstrap-icons": "^2.0",
-        "guzzlehttp/guzzle": "^7.2",
+        "guzzlehttp/guzzle": "^8.0",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0.1",
         "realrashid/sweet-alert": "^7.0"
